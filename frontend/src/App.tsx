@@ -1,9 +1,9 @@
+import Layout from "./layouts/Layout";
+
 const App = () => {
   return (
     <>
-      <div className='bg-primary-500'>
-        <p className='text-3xl text-brz-white'>Hello from app</p>
-      </div>
+      <Layout />
     </>
   );
 };
